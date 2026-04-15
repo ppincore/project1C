@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a804895-d383-465b-a90c-0ad933146d4e">
+  <producedTypes>
+    <selectionType typeId="cede341d-bb7a-4995-a9d2-54015ad3fe76" valueTypeId="f967a67a-a2c1-4d2f-a00d-5ead426bf0ef"/>
+    <listType typeId="1754bc62-c659-44ad-84c1-d1669e9c9bb5" valueTypeId="a347e496-db1f-4bd8-95ab-bfaa602ca63e"/>
+    <managerType typeId="68c5fab1-8ed6-4f37-a107-37ca666e6a3e" valueTypeId="e608f46a-1ac8-4999-8519-bc2ecc4ea4ac"/>
+    <recordSetType typeId="542a43c4-afc8-442b-80a4-ba58f76ec82d" valueTypeId="59238492-77c5-4263-89fb-3b4cff6f42e8"/>
+    <recordKeyType typeId="af933130-a31d-475b-833f-47dfbe444165" valueTypeId="442e2c94-e13a-4ff9-84c3-6e60036c68b2"/>
+    <recordType typeId="806ba7db-9154-4b01-9e37-7b5f614a5cbf" valueTypeId="5df8dc98-b81e-47f2-ac4f-d33f80eb0954"/>
+  </producedTypes>
+  <name>СтоимостьМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость материалов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Движения по регистру Стоимость материалов</value>
+  </extendedListPresentation>
+  <resources uuid="8187e68b-569e-4cf5-ad6b-3ed4bf771b92">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="707541ab-c8c9-4065-b34a-7633fac5d0b0">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

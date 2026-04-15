@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c827415-4650-4531-bef3-b86efe96e577">
+  <name>Услуги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бытовые услуги</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="209632cd-9c58-4741-8ec9-e4e8e427d695"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="a833104d-479d-42da-b997-f45b294f3d1d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="7b75eaf7-5437-4404-aad0-a133e100cda9"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="37aeb218-ddc3-433c-9f95-d5e5aa590858"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="56a44ade-cb2c-4f0a-bc48-bce016a87d5a"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6d87adc0-98cf-468d-a263-56dde9d167f6"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="212f3d87-d58a-480f-9e55-5249f753e9e7"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="5f07f660-768d-40de-ac90-a1956acd58b1">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Бухгалтерия</subsystems>
+  <subsystems>Subsystem.ОказаниеУслуг</subsystems>
+  <subsystems>Subsystem.Предприятие</subsystems>
+  <subsystems>Subsystem.РасчетЗарплаты</subsystems>
+  <subsystems>Subsystem.УчетМатериалов</subsystems>
+  <commonPictures>CommonPicture.Бухгалтерия</commonPictures>
+  <commonPictures>CommonPicture.Зарплата</commonPictures>
+  <commonPictures>CommonPicture.Материалы</commonPictures>
+  <commonPictures>CommonPicture.Предприятие</commonPictures>
+  <commonPictures>CommonPicture.Сервис</commonPictures>
+  <commonModules>CommonModule.РаботаСДокументами</commonModules>
+  <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.ОказаниеУслуги</documents>
+  <documents>Document.ПриходнаяНакладная</documents>
+  <enums>Enum.ВидыНоменклатуры</enums>
+  <reports>Report.ВыручкаМастеров</reports>
+  <reports>Report.Материалы</reports>
+  <reports>Report.ПереченьУслуг</reports>
+  <reports>Report.РеестрДокументовОказаниеУслуги</reports>
+  <reports>Report.РейтингКлиентов</reports>
+  <reports>Report.РейтингУслуг</reports>
+  <reports>Report.Универсальный</reports>
+  <dataProcessors>DataProcessor.РаботаСЗапросами</dataProcessors>
+  <informationRegisters>InformationRegister.Цены</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СтоимостьМатериалов</accumulationRegisters>
+</mdclass:Configuration>
