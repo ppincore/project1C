@@ -57,6 +57,7 @@
   <documents>Document.ОказаниеУслуги</documents>
   <documents>Document.ПриходнаяНакладная</documents>
   <enums>Enum.ВидыНоменклатуры</enums>
+  <enums>Enum.ПеречислениеДляГрупповойРазработки</enums>
   <reports>Report.ВыручкаМастеров</reports>
   <reports>Report.Материалы</reports>
   <reports>Report.Отчет1</reports>
